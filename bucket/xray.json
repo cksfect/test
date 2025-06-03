@@ -8,7 +8,7 @@
     },
     "architecture": {
         "64bit": {
-            "url": ["https://raw.githubusercontent.com/cksfect/test/refs/heads/master/tools/xray/xray_windows_amd64.exe","https://raw.githubusercontent.com/cksfect/test/refs/heads/master/tools/xray/xray-license.lic"],
+            "url": ["https://raw.githubusercontent.com/cksfect/test/refs/heads/master/tools/xray/xray_windows_amd64.exe?token=GHSAT0AAAAAADEXSKSNAFWV66CIGSCYOQP42BYCMAA","https://raw.githubusercontent.com/cksfect/test/refs/heads/master/tools/xray/xray-license.lic?token=GHSAT0AAAAAADEXSKSNAFWV66CIGSCYOQP42BYCMAA"],
             "hash": ["0f5e62026e74e038e789655b7a4a497e0190899adedb9e1865c4dc68148855e6","ccecbb99f05b4a9d3b5edfb8c1a1ce5f5816ade3bc860b8d3ef428fe1fa4b819"],
             "pre_install": [
                 "Rename-Item \"$dir\\xray_windows_amd64.exe\" 'xray.exe'",
